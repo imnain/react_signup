@@ -2,8 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import {Grid, Paper, TextField, Button, Typography, Checkbox, FormGroup, FormControlLabel} from '@mui/material';
 import { red } from '@mui/material/colors';
+import PersonAddIcon from '@mui/icons-material/PersonAdd';
 
-const paperStyle = {padding:20, height:'55vh', width:450, margin:"20px auto"}
+
+const paperStyle = {padding:20, height:'65vh', width:350, margin:"20px auto"}
 const gridStyle = {border: '1px', margin:"15px auto"}
 
 
@@ -14,9 +16,13 @@ function App() {
 
     <Paper style={paperStyle} >
       <Grid style={gridStyle}>
+
+      <Grid style={gridStyle}>
+        <PersonAddIcon />
+      </Grid>
       <Typography variant="h6"> <b>Sign up </b></Typography>        
       </Grid>  
-
+      
       <Grid container spacing={0.1} style={gridStyle} alignItems="flex-start">
           <Grid item xs={6} >
             <TextField
@@ -65,6 +71,7 @@ function App() {
               color='secondary'
               variant='contained'
               fullWidth
+
               >SIGN UP
             </Button>
           </Grid>
