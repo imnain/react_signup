@@ -3,6 +3,7 @@ import './App.css';
 import {Grid, Paper, TextField, Button, Typography, Checkbox, FormGroup, FormControlLabel} from '@mui/material';
 import { red } from '@mui/material/colors';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
+import NavBar from './components/NavBar';
 
 
 const paperStyle = {padding:20, height:'65vh', width:350, margin:"20px auto"}
@@ -13,7 +14,7 @@ function App() {
   return (
     <Grid align='center' style={gridStyle}>
             
-
+    <NavBar />
     <Paper style={paperStyle} >
       <Grid style={gridStyle}>
 
