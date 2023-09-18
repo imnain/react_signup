@@ -22,15 +22,12 @@ export default function NavBar() {
         <IconButton color="inherit" aria-label="menu">
             <MenuIcon  />
           </IconButton>
-        <Typography style={typoStyle} variant="h6" component="div" sx={{ ml: 'auto' }}>
-            Home
-          </Typography>
-          <Typography style={typoStyle} variant="h6" component="div" sx={{ ml: 2 }}>
-            About
-          </Typography>
-          <Typography style={typoStyle} variant="h6" component="div" sx={{ ml: 2 }}>
-            Contact us
-          </Typography>
+          <Button style={typoStyle} sx={{ ml: 'auto' }} color="inherit">Home</Button>
+
+          <Button style={typoStyle} sx={{ ml: 2 }} color="inherit">About</Button>
+
+          <Button style={typoStyle} sx={{ ml: 2 }} color="inherit">Contact us</Button>
+
           <Button style={typoStyle} sx={{ ml: 2 }} color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
