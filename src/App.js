@@ -69,7 +69,7 @@ function App() {
           </Grid>
           <Grid style={gridStyle}>
             <Button
-              color='secondary'
+              color='primary'
               variant='contained'
               fullWidth
 
