@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const divStyle = {justifyContent: 'center', alignItems: 'center', border: '1px solid red'}
+const divStyle = {justifyContent: 'center', alignItems: 'center', border: '1px solid red', display: 'flex'}
 
 function Counter(){
     const [count,setCount] = useState(0);
