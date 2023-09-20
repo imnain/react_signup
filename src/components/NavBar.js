@@ -26,9 +26,12 @@ export default function NavBar() {
             <MenuIcon  />
           </IconButton>
           
-          <Button style={typoStyle} sx={{ ml: 'auto' }} color="inherit">Home</Button>
+          <Button style={typoStyle} sx={{ ml: 'auto' }} color="inherit">About</Button>
+          <Link to="/">
 
-          <Button style={typoStyle} sx={{ ml: 2 }} color="inherit">About</Button>
+          <Button style={typoStyle} sx={{ ml: 2 }} color="inherit">Home</Button>
+          </Link>
+
           <Link to="/signup">
           <Button style={typoStyle} sx={{ ml: 2 }} color="inherit">Sign Up</Button>
           </Link>

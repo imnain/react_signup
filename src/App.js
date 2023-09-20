@@ -11,6 +11,7 @@ import {
   Link
 } from "react-router-dom";
 import { Routes ,Route } from 'react-router-dom';
+import Counter from './components/Counter';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <>
        <Router>
         <NavBar />
+        <Counter />
        <Routes>
        <Route path='/login' element={<Login />} />
        <Route path='/signup' element={<SignUp />} />
